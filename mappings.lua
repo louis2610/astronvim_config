@@ -128,7 +128,7 @@ return {
     },
     ["<Esc>"] = { ":nohlsearch<CR>", desc = "Close search highlight", silent = true },
 
-    -- ["<leader>x"] = { "<leader>la", expr = true, desc = "Code Action Menu" },
+    ["<leader>ip"] = { "<cmd> lua require('typescript').actions.removeUnused() <CR>", desc = "Remove Unused Imports" },
   },
   v = {
     ["p"] = { 'p:let @+=@0<CR>:let @"=@0<CR>', desc = "Dont copy replaced text", silent = true },
