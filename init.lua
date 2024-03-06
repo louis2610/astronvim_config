@@ -1,3 +1,5 @@
+if vim.g.neovide then require("user.neovide").init() end
+
 return {
   -- Configure AstroNvim updates
   updater = {
