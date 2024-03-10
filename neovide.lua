@@ -6,7 +6,7 @@ function M.init()
 end
 
 function M.config()
-  vim.o.guifont = "JetBrainsMono Nerd Font Mono:h16"
+  vim.o.guifont = "JetBrainsMono Nerd Font Mono:h13"
   -- 没有空闲
   vim.g.neovide_no_idle = true
   -- 退出需要确认
@@ -25,7 +25,7 @@ function M.config()
   -- vim.g.neovide_touch_drag_timeout = 0.17
   -- 开启轨道动画
   vim.g.neovide_cursor_vfx_mode = "railgun"
-  vim.g.neovide_borderless = true
+  vim.g.neovide_hide_mouse_when_typing = true
 end
 
 function M.background()

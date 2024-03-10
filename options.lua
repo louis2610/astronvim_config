@@ -7,6 +7,7 @@ return {
     spell = false, -- sets vim.opt.spell
     signcolumn = "auto", -- sets vim.opt.signcolumn to auto
     wrap = false, -- sets vim.opt.wrap
+    swapfile = false,
     scrolloff = 8,
     clipboard = "unnamed,unnamedplus", --- Copy-paste between vim and everything else
   },
