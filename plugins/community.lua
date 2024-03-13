@@ -10,6 +10,8 @@ return {
   { import = "astrocommunity.lsp.inc-rename-nvim" },
   -- { import = "astrocommunity.diagnostics.trouble-nvim" },
   { import = "astrocommunity.lsp.lsp-inlayhints-nvim" },
+  { import = "astrocommunity.editing-support.wildfire-nvim" },
+  { import = "astrocommunity.motion.nvim-surround" },
   -- { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.pack.typescript" },
